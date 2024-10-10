@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/script.js" defer></script>
+    </head>
+    <body>
+        <label for="backgroundColor">Page color:</label>
+        <input 
+            type="color" 
+            id="backgroundColor" 
+            name="backgroundColor" 
+            value = #ffffff>
+
+        <label for="fontColor">Text color:</label>
+        <input type="color" id="fontColor" name="fontColor">
+        <br>
+        <label for="fontSize">Font size:</label>
+        <input type="number" id="fontSize" name="fontSize">
+
+
+        <label for="fontType">Choose page font:</label>
+        <select name="fontType" id="fontType">
+            <option value="Monospace">Monospace</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Gill Sans">Gill Sans</option>
+            <option value="Trebuchet MS">Trebuchet MS</option>
+            <option value="Calibri">Calibri</option>
+        </select>
+
+        <hr>
+        <form>
+            <label for="textType">Choose element type:</label>
+            <select name="textType" id="textType">
+                <option value="p">Paragraph</option>
+                <option value="blockquote">Blockquote</option>
+                <option value="h1">Head large</option>
+                <option value="h2">Head medium</option>
+                <option value="h3">Head small</option>
+                </select>
+            <br>
+            <label for="inputText">Text for element:</label>
+            <input type="text" id="inputText" name="inputText">
+            <br>
+            <button id="addButton">Add</button>
+        </form>
+        <hr>
+        <hr id="break">
+        <h3>Double click a element to delete it</h3>
+    </body>
+</html>

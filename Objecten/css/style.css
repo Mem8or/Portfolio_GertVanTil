@@ -1,0 +1,13 @@
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid gold;
+    padding: 8px;
+}
+
+td{
+    text-transform: capitalize;
+}
