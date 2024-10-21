@@ -2,26 +2,45 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="./css/Style.css">    
     <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/LargeStyle.css">
+    
 </head>
-<header>
 
+<header>
+    <img src="" alt="">
+    <img src="./Images/logo.png" alt="">
 </header>
 <body>
-    <h2>Lightweight puffer jacket with a hood</h2>
-    <br>
+    <img src="./Images/Jacket1.jpg" id="headImage">
+    <section id="secondaryImages">        
+        <img src="Images/Jacket2.jpg" class="secondaryImages">
+        <img src="Images/Jacket3.jpg" class="secondaryImages">
+        <img src="./Images/Jacket1.jpg" id="selectedimage" class="secondaryImages">
+        <img src="Images/Jacket4.jpg" class="secondaryImages">
+    </section>
+
+
+<div id="storepage">
+    <p id="itemtitle">Lightweight Puffer Jacket With a Hood</p>
     <h1>$449</h1>
-    <br>
     <p>Phasellus sed volutpat arci. Fusce eget lore mauris vehicula elementum gravida nec dui.
         Aenean aliquam varius ipsum, non ultricies tellus sodales eu.
     </p>
-    <br>
-    <p>3</p> <p>ADD TO CART</p>
-    <br>
-    <p class="greyed">ADD TO WISHLIST</p><p id="share">SHARE</p>
-    <br>
-    <p class="greyed">SKU:</p> <p>N/A</p>
-    <p class="greyed">CATEGORIES:</p> <p>Casual & Urban Wear, Jackets, Men</p>
-    <p class="keywords">TAGS:</p> <p>biker, black, bomber, leather</p>
+    
+    <button id="amount"> 3 </button>
+    
+    <button id="cartbutton"><b>ADD TO CART</b></button>
+
+    <p>ADD TO WISHLIST</p><p id="share">SHARE</p>
+
+    <section>
+        <div class="tags"><p class="greyed" class="same-line">SKU:</p> <p class="same-line">N/A</p></div> 
+        
+        <div class="tags"><p class="greyed" class="same-line">CATEGORIES:</p> <p class="same-line">Casual & Urban Wear, Jackets, Men</p></div>  
+
+        <div class="tags"><p class="greyed" class="same-line">TAGS:</p> <p class="same-line">biker, black, bomber, leather</p></div>
+    </section>
+
+<br>
     <p id="description"><u>DESCRIPTION</u></p> <p>ADDITIONAL INFORMATION</p> <p>REVIEWS (3)</p>
     <h3>Sed do eiusmod tempor incididunt ut labore</h3>
     <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -42,11 +61,13 @@
         <p>Downloadable/Digital Products, Virtual Products</p>
 </ul>
     <h3>Sample Number List</h3>
-        <p class="greyed">1</p> <p>Create Store- specific attrittbutes on the fly</p>
-        <p class="greyed">2</p> <p>Simple, Configurable (e.g. size, color, etc.), bundled</p>
-        <p class="greyed">3</p> <p>Downloadable/Digital Products, Virtual Products</p>
+    <div class="tags"><p class="greyed" class="same-line">1</p> <p class="same-line">Create Store- specific attrittbutes on the fly</p></div>
+    <div class="tags"><p class="greyed" class="same-line">2</p> <p class="same-line">Simple, Configurable (e.g. size, color, etc.), bundled</p></div>
+    <div class="tags"><p class="greyed" class="same-line">3</p> <p class="same-line">Downloadable/Digital Products, Virtual Products</p></div>
     <h3>Lining</h3>
     <p>100% Polyester, Main: 100% Polyester.</p>
+</div>
+
 </body>
 <footer>
     <div>
@@ -96,13 +117,19 @@
     <br>
     <b><p>Secure payments</p></b>
 </div>
-<div>    
+    <section id="baseinformation">    
     <p>&#169;2020 Uomo</p>
-    <p class="greyed">language</p>
-    <p>United Kingdom | English</p>
-    <br>
-    <p class="greyed">currency</p>
-    <p>$ USD</p>
-</div>
+    <section id="language">
+        <p class="greyed">language</p>
+        <p>United Kingdom | English</p>
+    </section>
+
+    <section id="currency">    
+        <p class="greyed">currency</p>
+        <p>$ USD</p>
+    </section>
+
+</section>
+
 
 </footer>

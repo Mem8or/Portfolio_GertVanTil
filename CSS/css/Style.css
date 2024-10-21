@@ -1,13 +1,137 @@
-body{
-    font-family: system-ui;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.background{
+
+@font-face {
+	src: url("../font/Sofia\ Pro\ Light\ Az.otf");
+	font-family: "Sofia Pro light";
+}
+
+
+main {
+    display: grid;
+    width: 100%;
+}
+
+header {
+    background-color: white;
+    padding: 1%;
+    width: 100%;
+    height: 6%;
+}
+
+body {
+    font-family: "Sofia Pro light" ;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.background {
     background-color: white;
 }
-footer{
-    background-color: #D3D3D3;
+
+footer {
+    background-color: E4E4E4;
     padding: 1%;
+    width: 100%;
 }
-.greyed{
-   color: #767676;
+
+p{
+    line-height: 150%;
+    font-size: 90%;
+    padding-bottom: 3%;
+}
+
+.greyed {
+    color: #767676;
+}
+
+button {
+    font-family: "Sofia Pro light", -apple-system;
+    width: 60%;
+    height: 5%;
+    background-color: 222222;
+    border: none;
+    color: white;
+    font-size: 90%;
+    text-decoration: none;
+    padding: 3%;
+}
+
+#amount{
+    width: 35%;
+    height: 5%;
+    color: #767676;
+    background-color: white;
+}
+
+#headImage {
+    width: 100%;
+    height: auto;
+    padding-bottom: 2%;
+}
+
+#secondaryImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 2%;
+}
+
+.secondaryImages {
+    width: 22%;
+    box-sizing: border-box;
+    opacity: 0.5;
+    padding-bottom: 6%;
+}
+
+#selectedimage {
+    opacity: 1.0;
+}
+
+#language{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#currency{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#baseinformation{
+    padding-bottom: 6%;
+}
+
+#itemtitle{
+    white-space: nowrap;
+    max-width: 90%;
+    display: block;
+    font-size: 140%;
+    padding-right: 10%;
+}
+
+.tags {
+    display: flex;
+    align-items: left;
+    margin-bottom: 10px;
+}
+
+section {
+    width: 100%;
+}
+
+h1{
+    font-size: 140%;
+    padding-bottom: 6%;
+}
+
+#storepage{
+    padding-left: 3%;
 }
