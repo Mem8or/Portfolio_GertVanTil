@@ -109,16 +109,13 @@ section {
 
 }
 
-div{
-    width: 100%;
-    height: min-content;
-}
-
 #inlinewrap{
-    display: inline-flex;
-    white-space: wrap;
-    justify-content: space-between;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    gap: 10%;
 }
 
 h1{
@@ -144,11 +141,14 @@ p{
     display: inline-flex;
 }
 
+div{
+    width: 100%;
+    height: min-content;
+}
+
 #Purchasebar {
     display: flex;
     flex-direction: row;
-    align-items: center; 
-    justify-content: center; 
     height: 20%; 
     justify-content: space-between;
 }
@@ -156,7 +156,6 @@ p{
 button {
     font-family: "Sofia Pro light", -apple-system;
     width: 60%;
-    height: max-content;
     background-color: #222222;
     border: none;
     color: white;
@@ -164,19 +163,12 @@ button {
     text-decoration: none;
     padding: 3%;
     cursor: pointer;
+    margin-right: 3%;
 }
 
 #quantity {
     width: auto;
     height: 40%;
-    color: #767676;
-    background-color: white;
-}
-
-#cartbutton{
-    width: 60%;
-    height: 100%;
-    margin-right: 3%;
 }
 
 #Sharebar {
@@ -193,7 +185,6 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center; 
-    justify-content: center; 
     height: 10%; 
     padding: 10px; 
     justify-content: space-between;
@@ -205,10 +196,16 @@ button {
     align-items: left;
     margin-bottom: 10px;
 }
+#infolists > div {
+    width: auto;
+}
 
-.infolists{
+#infolists {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 25%;
 }
 
 #baseinformation{
