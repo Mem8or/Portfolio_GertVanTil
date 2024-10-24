@@ -20,8 +20,6 @@ main {
 }
 
 body {
-    margin: 0;
-    padding: 0;
     font-family: "Sofia Pro light" ;
     display: flex;
     flex-wrap: wrap;
@@ -116,6 +114,7 @@ section {
     justify-content: center;
     max-width: 100%;
     gap: 10%;
+    padding-bottom: 5%;
 }
 
 h1{
@@ -131,8 +130,11 @@ h4{
 p{
     line-height: 150%;
     font-size: 90%;
-    padding-bottom: 3%;
-    padding-right: 3%;
+}
+
+.textspaced {
+    margin-bottom: 7%;
+    margin-right: 5%;
 }
 
 .greyed {
@@ -166,6 +168,10 @@ button {
     margin-right: 3%;
 }
 
+button:hover {
+    background-color: darkgray;
+}
+
 #quantity {
     width: auto;
     height: 40%;
@@ -191,10 +197,14 @@ button {
     background-color: white;
 }
 
+.email p {
+    padding-bottom: none;
+}
+
 .tags {
     display: flex;
     align-items: left;
-    margin-bottom: 10px;
+    padding-bottom: 0px;
 }
 #infolists > div {
     width: auto;
@@ -221,3 +231,9 @@ button {
     display: flex;
     flex-wrap: nowrap;
 }
+
+#footerlogo{
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
