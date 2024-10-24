@@ -168,7 +168,7 @@ button {
     margin-right: 3%;
 }
 
-button:hover {
+button:onclick {
     background-color: darkgray;
 }
 
