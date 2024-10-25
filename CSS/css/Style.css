@@ -95,9 +95,9 @@ footer {
 }
 
 #itemtitle{
-    white-space: nowrap;
+    white-space: wrap;
     max-width: 90%;
-    display: block;
+    display: flex;
     font-size: 140%;
     padding-right: 10%;
 }
@@ -168,7 +168,7 @@ button {
     margin-right: 3%;
 }
 
-button:onclick {
+button:hover {
     background-color: darkgray;
 }
 
@@ -227,13 +227,20 @@ button:onclick {
     flex-wrap: nowrap;
 }
 
-#currency{
+#currency {
     display: flex;
     flex-wrap: nowrap;
 }
 
-#footerlogo{
+#footerlogo {
     margin-top: 5%;
     margin-bottom: 4%;
 }
 
+#infolists ul {
+    margin-bottom: 5%;
+}
+
+.paymentimage {
+    max-width: 80%;
+}
